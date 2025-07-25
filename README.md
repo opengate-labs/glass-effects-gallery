@@ -2,20 +2,6 @@
 
 A curated **open-source collection** of glass morphism effects for developers and designers. Browse, copy, and contribute beautiful glass effects with Tailwind CSS, React components, and AI prompts.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://glass-effects-gallery.vercel.app)
-[![GitHub Stars](https://img.shields.io/github/stars/opengate-labs/glass-effects-gallery?style=for-the-badge)](https://github.com/opengate-labs/glass-effects-gallery)
-[![Open Source](https://img.shields.io/badge/Open-Source-green?style=for-the-badge)](https://github.com/opengate-labs/glass-effects-gallery)
-
-## ✨ Features
-
-- 🎨 **11+ Glass Effects** - Cards, overlays, navigation, backgrounds, and animations
-- 📱 **Responsive Design** - Works perfectly on all devices
-- 🚀 **Copy & Paste** - Ready-to-use React components and Tailwind classes
-- 🤖 **AI Prompts** - Get AI prompts to generate similar effects
-- 🔍 **Category Filters** - Browse by effect type
-- 🌐 **SEO Optimized** - Fully optimized for search engines
-- 📖 **Open Source** - Community-driven and contribution-friendly
-
 ## 🛠️ Built With
 
 - **Next.js 14** - React framework with App Router
@@ -125,34 +111,8 @@ glass-effects-gallery/
 - **Backgrounds** - Hero sections and background effects
 - **Animated** - Effects with animations and transitions
 
-## 📱 SEO & Performance
-
-- ✅ Fully SEO optimized with meta tags
-- ✅ Open Graph and Twitter Card support
-- ✅ Structured data (JSON-LD)
-- ✅ PWA manifest
-- ✅ Responsive design
-- ✅ Fast loading with Next.js optimization
 
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
-
-- **Opengate Labs** - Project maintainer
-- **Contributors** - Thank you to all contributors!
-- **Community** - Glass morphism design community
-
-## 📞 Support
-
-- 🌟 **Star this repository** if you find it helpful
-- 🐛 **Report issues** on GitHub
-- 💬 **Join discussions** in GitHub Discussions
-- 🐦 **Follow us** [@opengate_labs](https://twitter.com/opengate_labs)
-
----
-
-<div align="center">
-  <strong>Made with ❤️ by the open source community</strong>
-</div> 
