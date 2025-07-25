@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://glass-effects-gallery.vercel.app/sitemap.xml
+
+# Block access to admin or private areas (if any in future)
+Disallow: /api/
+Disallow: /_next/static/
+Disallow: /_next/image/
+
+# Allow all image assets
+Allow: /images/
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.gif
+Allow: /*.webp
+Allow: /*.svg
+
+# Crawl delay (optional - can help with server load)
+Crawl-delay: 1 
