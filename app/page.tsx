@@ -151,7 +151,7 @@ export default function GlassGallery() {
                 <header className="relative z-10 p-6 md:p-8">
                     <div className="max-w-7xl mx-auto">
                         <motion.div
-                            className="bg-white/80 backdrop-blur-md rounded-2xl  p-8 mb-8 shadow-sm"
+                            className="bg-white/80 backdrop-blur-md rounded-2xl  p-2 md:p-8 mb-8 shadow-sm"
                             initial="hidden"
                             animate="visible"
                             variants={fadeUpVariants}
@@ -182,7 +182,7 @@ export default function GlassGallery() {
 
                         {/* Filter buttons */}
                         <motion.div
-                            className="flex flex-wrap gap-3 mb-8"
+                            className="flex flex-wrap gap-3 mb-4 md:mb-8 "
                             variants={staggerContainer}
                             initial="hidden"
                             animate="visible"
@@ -241,8 +241,8 @@ export default function GlassGallery() {
                                     <div className="rounded-xl overflow-hidden">
                                         {effect.preview}
                                     </div>
-                                    <div className="space-y-3">
-                                        <div className="flex items-center justify-between">
+                                    <div className="space-y-3 mt-4">
+                                        <div className="flex items-start  md:items-center justify-between flex-col md:flex-row gap-2">
                                             <motion.h3
                                                 className="text-gray-800 font-semibold text-lg"
                                                 variants={fadeUpVariants}
@@ -355,7 +355,7 @@ export default function GlassGallery() {
                     transition={{ delay: 1, duration: 0.8 }}
                 >
                     <motion.div
-                        className="absolute bottom-6 left-1/2 -translate-x-1/2 text-white text-center pointer-events-auto"
+                        className="absolute bottom-6 left-0 right-0 mx-auto text-white text-center pointer-events-auto"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 1.2, duration: 0.6 }}
