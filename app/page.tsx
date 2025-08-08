@@ -306,9 +306,9 @@ export default function GlassGallery() {
                                     </div>
                                 </div>
                                 <div className="space-y-3">
-                                    <div className="flex items-center justify-between">
+                                    <div className="flex items-center justify-between flex-col md:flex-row gap-2">
                                         <motion.h3
-                                            className="text-gray-800 font-semibold text-lg flex items-center gap-2"
+                                            className="text-gray-800 font-semibold text-lg flex items-center gap-2 "
                                             variants={fadeUpVariants}
                                         >
                                             Contribute Your Own
